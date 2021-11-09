@@ -272,8 +272,6 @@ class VideoContent extends Component {
     let instruction = null;
     const today = new Date();
     const date = `${today.getFullYear()}${today.getMonth()}${today.getDate()}`;
-    //const url = "https://www.youtube.com/watch?v=" + this.state.videoContent.VideoID + "&modestbranding=1&loop=1&playlist=" + this.state.videoContent.VideoID;
-
     const url = "https://www.youtube.com/embed/"+this.state.videoContent.VideoID + "?modestbranding=1&loop=1";
     let counter = 0;
     usrAnswers = [];
